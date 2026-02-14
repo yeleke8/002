@@ -1,0 +1,37 @@
+/* assets/style.css - Кастомные стили поверх Bootstrap */
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.post-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.rating-stars {
+    color: #ffc107;
+}
